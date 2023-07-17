@@ -1,7 +1,35 @@
-.footer {
-    background-color: black;
-    position: fixed;
-    bottom: 0; right: 0; left: 0;
-    color: white;
-    padding: 3px;
+.collapse {
+  justify-content: end;
+}
+
+.dropdown-menu {
+  border: none;
+}
+.dropdown-item:hover {
+  background-color: rgb(2, 197, 223);
+}
+
+.aside-1,
+.aside-2,
+.content {
+  padding: 25px;
+}
+
+.aside-1 {
+  grid-area: aside-1;
+  background-color: blue;
+}
+.aside-2 {
+  grid-area: aside-2;
+  background-color: red;
+}
+.content {
+  grid-area: content;
+  background-color: green;
+}
+
+/* Login and registrasi */
+
+.container-login div div a {
+  float: right;
 }
